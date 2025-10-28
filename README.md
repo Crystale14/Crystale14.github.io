@@ -1,1 +1,3 @@
-# Crystale14.github.io
+theme: jekyll-theme-minimal
+title: Crystal14's homepage
+description: Test
