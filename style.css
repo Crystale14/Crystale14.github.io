@@ -1,0 +1,22 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(47, 47, 58);
+    color: #f0f0f0;
+}
+
+
+header {
+    position: sticky;    
+    top: 0;              
+    background: #151d3a;
+    padding: 6px 0;
+    z-index: 1000;       
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.header_title{
+    font-size: 5vh;
+    padding-left: 5vw;
+}
