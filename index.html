@@ -9,25 +9,89 @@
     </head>
     <body>
         <header>
-            <p class="header_title">My Projects</p>
+            <p id="header_title">My Projects</p>
+            <button id="lang_btn">FR</button>
         </header>
 
-        <div>
-            <p>Greyscale image coloration</p>
-            <a href="Greyscale.html">click</a>
+        <div class="node">
+            <h2 id="project1_title">Greyscale image coloration</h2>
+            <hr> <br>
+            <div class="project">
+                <div class="images">
+                        <img src="/images/greyscale_sea.png" alt="Image showing the greyscale, predicted and GT version of a picture of the sea" style="width: 70vh;">
+                        <br>
+                        <img src="/images/greyscale_giraffe.png" alt="Image showing the greyscale, predicted and GT version of a picture of a giraffe" style="width: 70vh;">
+                </div>
+                <div class="text">
+                    <div class="desc">
+                        <p id="project1_description">
+                            This project consisted in creating models to predict the colors of greyscale images following the CIELAB color scheme. 
+                            Each greyscaled image represented the L parameter and our models had to predict the a and b channels that represent colors between green and red and blue and yellow respectively. 
+                            We trained multiple models using U-Net and GAN architectures and compared their outputs given differents training parameters.
+                        </p>
+                    </div>
+                <p class="skills">Python, PyTorch</p>
+                <p class="skills">2 weeks</p>
+                </div>
+            </div>
         </div>
 
-        <div>
-            <p>Base graphic engine creation</p>
+        <div class="node">
+            <h2 id="project2_title">Base game engine creation</h2>
+            <hr> <br>
+            <div class="project">
+                <div class="images">
+                        <img src="/images/cube1.png" alt="Image showing a cube from a basic game engine" style="width: 60vh;">
+                </div>
+                    <div class="text">
+                        <div class="desc">
+                            <p id="project2_description">
+                                In this project, I created a basic game engine from scratch in Python.
+                                
+                                This engine allowed for : 
+                                - Perspective and orthographic projections
+                                - Wireframe and solid display 
+                                - Translation, rotation and scaling using transformation matrices. 
+                                - The rotations were displayed under different forms: Euler angles, Exponential map and Quaternions
+                                - LERP and SLERP to return to the initial state
+                                - Camera movement (translation, rotation) 
+                                - Lighting using the diffuse lighting model 
+                                - Backface culling to prevent artefacts 
+                                
+                            </p>
+                        </div>
+                        
+                        <p class="skills">Python</p>
+                        <p class="skills">2 weeks</p>
+                    </div>
+            </div>
         </div>
 
-        <div>
-            <p>Full website with connexion to an external HMI</p>
+        <div class="node">
+            <h2 id="project3_title">Full website with connexion to an external HMI</h2>
+            <hr> <br>
+            <div class="project">
+                <div class="images">
+                        <img src="/images/ecovrac.png" alt="Image showing the main page of the website" style="width: 80vh;">
+                    </div>
+                    <div class="text">
+                        <div class="desc">
+                        <p id="project3_description">
+                                This was a project I did for an internship, where I had to setup a website to centralize the informations about clients' vehicles and to display and connect to an external HMI.
+                                The website also allowed the user to sort and save informations given by the numerous sensors on the vehicles to help in doing preventive maintenance.
+                            </p>
+                        </div>
+                        
+                        <p class="skills">HTML, CSS, JavaScript</p>
+                        <p class="skills">2 months</p>
+                    </div>
+            </div>
         </div>
 
         <footer>
             <p style="padding-left: 2vw;">&copy; 2025 - Audrey Truong's Portfolio</p>
         </footer>
 
+        <script src="script.js"></script>
     </body>
 </html>
